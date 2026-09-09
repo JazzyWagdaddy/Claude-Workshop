@@ -8,11 +8,11 @@
 
 You set up all four personalization features yourself, in order, and you leave with a decision framework for which one to reach for on the job.
 
-## Before you start (not counted in the 20 minutes)
+## Before you start 
 
 Get these ready before the clock starts:
 
-- A Claude account. Free, Pro, Max, Team, or Enterprise all work for this lab.
+- A Claude account for this lab.
 - Code execution turned on. Go to Settings > Capabilities and confirm it's enabled. Station 3 needs it.
 - One real file on your laptop you can upload. A template, a policy doc, a past deliverable. Anything you'd normally attach to an email.
 - Notifications off. You need 20 uninterrupted minutes.
@@ -112,8 +112,4 @@ Ask these questions in order. Stop at the first "yes."
 
 ---
 
-## Facilitator notes
 
-- Confirm code execution is on for every participant before Station 3. It's the one prerequisite people forget.
-- Free plan caps: 5 Projects, 1 custom connector. If your group is on Free, steer Station 4 toward pre-built connectors.
-- Running short on time: cut Station 4 to a 2-minute group demo instead of hands-on, and protect the wrap-up. The decision framework is what people actually use back at their desks.

@@ -1,8 +1,7 @@
-# Hands-On Lab: Projects vs. Skills vs. Connectors vs. Custom Instructions
+# Hands-On Lab
 
-**Duration:** 20 minutes
-**Format:** Live, inside claude.ai
-**Audience:** Anyone with a Claude account
+Projects vs. Skills vs. Connectors vs. Custom Instructions
+
 
 ## What you walk away with
 

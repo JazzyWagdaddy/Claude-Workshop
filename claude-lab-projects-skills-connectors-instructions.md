@@ -36,7 +36,7 @@ Get these ready before the clock starts:
 
 1. Click your profile icon in the bottom left and open Settings.
 2. Go to Profile and find "Instructions for Claude"
-3. Write two sentences: one about your role, one about how you want Claude to respond. Example: "I run onboarding for a 40-person sales team. Keep answers under 150 words and skip the caveats."
+3. Write two sentences: one about your role, one about how you want Claude to respond. Example: ```I run onboarding for a 40-person sales team. Keep answers under 150 words and skip the caveats.```
 4. Save it.
 5. Start a brand-new chat, not inside a project, and ask something generic, like "how do I run a good 1:1?"
 
@@ -82,7 +82,7 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 
 ### **If time permits** - Pick one narrow, repeatable task
 1. Choose something you or your team does the same way every time — formatting meeting notes into action items, writing a weekly status update, converting a transcript into a client-ready summary. The narrower the task, the more useful the skill. Avoid vague goals like "write better emails."
-2. Write down what "good" looks like - Grab a real example of the task done well — an input and the output you'd want from it. This becomes the reference Claude uses to understand the pattern you're teaching it, and it's the single biggest factor in whether the skill actually works. '''create a skill to make all my responses sound like they are coming from a TV anchorman from the 1970's '''
+2. Write down what "good" looks like - Grab a real example of the task done well — an input and the output you'd want from it. This becomes the reference Claude uses to understand the pattern you're teaching it, and it's the single biggest factor in whether the skill actually works. ```create a skill to make all my responses sound like they are coming from a TV anchorman from the 1970's ```
 3. Ask Claude to build the skill with you - In a Claude chat, describe the process in plain language: "I want a skill that turns raw meeting notes into a table of action items with owners and due dates. Here's an example of notes and the table I'd want back." Paste your example. Claude will turn this into a SKILL.md file — the instruction file every skill needs — without you writing any YAML or code.
 4. Check the name and description Claude gave it - Every skill has a short name and a one-line description. Claude reads that description to decide when to use the skill, so it needs to say exactly what the skill is for — "Formats raw meeting notes into an action-item table with owners and due dates" works; "helps with meetings" is too vague and won't trigger reliably.
 5. Test it on a fresh example - Start a new chat and hand Claude a different set of notes than the one you used to build the skill. Confirm the skill actually fires and the output matches the pattern you taught. If it doesn't trigger, the description usually needs to be more specific.

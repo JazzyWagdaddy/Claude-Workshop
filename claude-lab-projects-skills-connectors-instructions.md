@@ -28,36 +28,38 @@ Get these ready before the clock starts:
 
 ---
 
-## Station 1: Custom Instructions (4 minutes)
+## Exercise 1: Custom Instructions (4 minutes)
 
 **Goal:** Set a standing preference and watch it apply without asking.
 
 **Steps**
 
 1. Click your profile icon in the bottom left and open Settings.
-2. Go to Profile and find "What preferences should Claude consider in responses?"
+2. Go to Profile and find "Instructions for Claude"
 3. Write two sentences: one about your role, one about how you want Claude to respond. Example: "I run onboarding for a 40-person sales team. Keep answers under 150 words and skip the caveats."
 4. Save it.
 5. Start a brand-new chat, not inside a project, and ask something generic, like "how do I run a good 1:1?"
 
 **What to notice:** Claude answered in your style without you asking. That's the whole feature. It now applies to every future chat, not just this one.
 
+Make a few more iterations to your Custom Instructions based upon your role and persona.  Don't forget to save the changes and open a new chat to check out the results.
+
 **Reflection question:** Would this same preference cause a problem in a totally different context, like a legal memo? If yes, it's too broad for Custom Instructions. That's your signal to use a Project or a Style instead.
 
 ---
 
-## Station 2: Projects (5 minutes)
+## Exercise 2: Projects (5 minutes)
 
 **Goal:** Build a workspace that already knows a specific subject before you type a word.
 
 **Steps**
 
-1. Click Projects in the left sidebar, or go to claude.ai/projects.
+1. Click Projects in the left sidebar.
 2. Click "+ New Project."
-3. Name it something specific. Not "Work." Try "Q4 Client Onboarding."
-4. Open the project and set Project Instructions. Tell Claude who it's working for, in this one context only.
+3. Name it something specific. Not "Work." Try "Q4 Client Onboarding."  Note that you can share this project across the company, or use it just for your purposes.  Click "Create Project".
+4. Open the project and set Project Instructions. Tell Claude who it's working for, in this one context only.  The idea: instead of re-explaining your role, tone, or rules in every new chat, you write them once in the project's instructions field, and every conversation started inside that project automatically inherits them — alongside any files you've uploaded to the project's knowledge base.
 5. Upload the file you prepared earlier.
-6. Start a new chat inside the project and ask a question that depends on that file.
+6. Start a new chat inside the project and ask a question that depends on that file.  Be creative and use the T-C-O framework.
 
 **What to notice:** Claude used the file without you attaching it to the chat. Every new chat inside this project starts already briefed. Chats outside the project don't carry any of this.
 
@@ -65,7 +67,7 @@ Get these ready before the clock starts:
 
 ---
 
-## Station 3: Skills (5 minutes)
+## Exercise 3: Skills (5 minutes)
 
 **Goal:** Watch Claude load a procedure on its own, only when the task calls for it.
 
@@ -73,8 +75,8 @@ Get these ready before the clock starts:
 
 1. Click "Customize" in the left sidebar, then the Skills tab.
 2. Click the "+" button, then "Browse skills."
-3. Install one Anthropic-built skill relevant to your work. Excel, Word, or PowerPoint creation are good starting points.
-4. Go to any chat, inside or outside a Project, and ask for a task that skill covers. Example: "Build me a simple budget tracker in Excel."
+3. Install the /learn skill by clicking the '+' button.  Click the "X" in the upper right corner several times to close the windows.
+4. Opena new chat , inside or outside a Project, and ask for a task that skill covers. Example: "Build me a simple budget tracker in Excel."
 
 **What to notice:** You never said "use the skill." Claude matched the task and loaded it automatically. It works the same way whether you're in a Project or a plain chat.
 

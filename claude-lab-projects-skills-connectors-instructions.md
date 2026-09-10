@@ -40,8 +40,8 @@ Get these ready before the clock starts:
     ```
    I run onboarding for a 40-person sales team. Keep answers under 150 words and skip the caveats.
     ```
-5. Save it.
-6. Start a brand-new chat, not inside a project, and ask something generic, like "how do I run a good 1:1?"
+4. Save it.
+5. Start a brand-new chat, not inside a project, and ask something generic, like "how do I run a good 1:1?"
 
 **What to notice:** Claude answered in your style without you asking. That's the whole feature. It now applies to every future chat, not just this one.
 
@@ -79,7 +79,7 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 1. Click "Customize" in the left sidebar, then the Skills tab.
 2. Click the "+" button, then "Browse skills."
 3. Install the /learn skill by clicking the '+' button.  Click the "X" in the upper right corner several times to close the windows.
-4. Open a new chat and type "/"  You will see all the skills available to your session.  Highlight or type "learn" followed by a topic of your choosing, such as "bitcoin" or "basketball".
+4. Open a new chat and type "/".  You will see all the skills available to your session.  Highlight or type "learn" followed by a topic of your choosing, such as "bitcoin" or "basketball".
 
 **What to notice:** You never said "use the skill." Claude matched the task and loaded it automatically. It works the same way whether you're in a Project or a plain chat.
 
@@ -89,10 +89,13 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 ```
 create a skill to make all my responses sound like they are coming from a TV anchorman from the 1970's
 ```
-4. Ask Claude to build the skill with you - In a Claude chat, describe the process in plain language: "I want a skill that turns raw meeting notes into a table of action items with owners and due dates. Here's an example of notes and the table I'd want back." Paste your example. Claude will turn this into a SKILL.md file — the instruction file every skill needs — without you writing any YAML or code.
-5. Check the name and description Claude gave it - Every skill has a short name and a one-line description. Claude reads that description to decide when to use the skill, so it needs to say exactly what the skill is for — "Formats raw meeting notes into an action-item table with owners and due dates" works; "helps with meetings" is too vague and won't trigger reliably.
-6. Test it on a fresh example - Start a new chat and hand Claude a different set of notes than the one you used to build the skill. Confirm the skill actually fires and the output matches the pattern you taught. If it doesn't trigger, the description usually needs to be more specific.
-7. Refine one thing at a time - If the output is close but not quite right, tell Claude what to fix and ask it to update the skill. Change one instruction, re-test, and repeat — don't try to fix five issues in the same edit, or you won't know which change worked.
+4. Ask Claude to build the skill with you - In a Claude chat, describe the process in plain language:
+```I want a skill that turns raw meeting notes into a table of action items with owners and due dates. Here's an example of notes and the table I'd want back.
+```
+5. Paste your example. Claude will turn this into a SKILL.md file — the instruction file every skill needs — without you writing any YAML or code.
+6. Check the name and description Claude gave it - Every skill has a short name and a one-line description. Claude reads that description to decide when to use the skill, so it needs to say exactly what the skill is for — "Formats raw meeting notes into an action-item table with owners and due dates" works; "helps with meetings" is too vague and won't trigger reliably.
+7. Test it on a fresh example - Start a new chat and hand Claude a different set of notes than the one you used to build the skill. Confirm the skill actually fires and the output matches the pattern you taught. If it doesn't trigger, the description usually needs to be more specific.
+8. Refine one thing at a time - If the output is close but not quite right, tell Claude what to fix and ask it to update the skill. Change one instruction, re-test, and repeat — don't try to fix five issues in the same edit, or you won't know which change worked.
 
 **Reflection question:** A Skill holds procedural knowledge, the how of a task. A Project holds background knowledge, the what and who of a subject. Where's the line for something you do the same way every week, like formatting a status report?
 

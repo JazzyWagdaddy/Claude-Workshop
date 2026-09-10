@@ -71,6 +71,8 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 
 **Goal:** Watch Claude load a procedure on its own, only when the task calls for it.
 
+### Load an Existing Skill
+
 **Steps**
 
 1. Click "Customize" in the left sidebar, then the Skills tab.
@@ -80,7 +82,7 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 
 **What to notice:** You never said "use the skill." Claude matched the task and loaded it automatically. It works the same way whether you're in a Project or a plain chat.
 
-### **If time permits** - Pick one narrow, repeatable task
+### Create Your Own Skill
 1. Choose something you or your team does the same way every time — formatting meeting notes into action items, writing a weekly status update, converting a transcript into a client-ready summary. The narrower the task, the more useful the skill. Avoid vague goals like "write better emails."
 2. Write down what "good" looks like - Grab a real example of the task done well — an input and the output you'd want from it. This becomes the reference Claude uses to understand the pattern you're teaching it, and it's the single biggest factor in whether the skill actually works.
 ```

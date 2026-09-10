@@ -91,10 +91,10 @@ create a skill to make all my responses sound like they are coming from <insert 
 ```
 I want a skill that turns raw meeting notes into a table of action items with owners and due dates. Here's an example of notes and the table I'd want back.
 ```
-5. Paste your example. Claude will turn this into a SKILL.md file — the instruction file every skill needs — without you writing any YAML or code.
-6. Check the name and description Claude gave it - Every skill has a short name and a one-line description. Claude reads that description to decide when to use the skill, so it needs to say exactly what the skill is for — "Formats raw meeting notes into an action-item table with owners and due dates" works; "helps with meetings" is too vague and won't trigger reliably.
-7. Test it on a fresh example - Start a new chat and hand Claude a different set of notes than the one you used to build the skill. Confirm the skill actually fires and the output matches the pattern you taught. If it doesn't trigger, the description usually needs to be more specific.
-8. Refine one thing at a time - If the output is close but not quite right, tell Claude what to fix and ask it to update the skill. Change one instruction, re-test, and repeat — don't try to fix five issues in the same edit, or you won't know which change worked.
+3. Paste your example. Claude will turn this into a SKILL.md file — the instruction file every skill needs — without you writing any YAML or code.
+4. Check the name and description Claude gave it - Every skill has a short name and a one-line description. Claude reads that description to decide when to use the skill, so it needs to say exactly what the skill is for — "Formats raw meeting notes into an action-item table with owners and due dates" works; "helps with meetings" is too vague and won't trigger reliably.
+5. Test it on a fresh example - Start a new chat and hand Claude a different set of notes than the one you used to build the skill. Confirm the skill actually fires and the output matches the pattern you taught. If it doesn't trigger, the description usually needs to be more specific.
+6. Refine one thing at a time - If the output is close but not quite right, tell Claude what to fix and ask it to update the skill. Change one instruction, re-test, and repeat — don't try to fix five issues in the same edit, or you won't know which change worked.
 
 **Reflection question:** A Skill holds procedural knowledge, the how of a task. A Project holds background knowledge, the what and who of a subject. Where's the line for something you do the same way every week, like formatting a status report?
 

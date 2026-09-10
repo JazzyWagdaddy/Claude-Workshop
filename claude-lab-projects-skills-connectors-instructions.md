@@ -87,7 +87,7 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 1. Choose something you or your team does the same way every time — formatting meeting notes into action items, writing a weekly status update, converting a transcript into a client-ready summary. The narrower the task, the more useful the skill. Avoid vague goals like "write better emails."
 2. Write down what "good" looks like - Grab a real example of the task done well — an input and the output you'd want from it. This becomes the reference Claude uses to understand the pattern you're teaching it, and it's the single biggest factor in whether the skill actually works.
 ```
-create a skill to make all my responses sound like they are coming from Tony Soprano
+create a skill to make all my responses sound like they are coming from <insert your favorite TV character like Tony Soprano or That 70's Guy>
 ```
 4. Ask Claude to build the skill with you - In a Claude chat, describe the process in plain language:
 ```I want a skill that turns raw meeting notes into a table of action items with owners and due dates. Here's an example of notes and the table I'd want back.

@@ -88,8 +88,8 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 ```
 create a skill to make all my responses sound like they are coming from <insert your favorite TV character like Tony Soprano or That 70's Guy>
 ```
-4. Ask Claude to build the skill with you - In a Claude chat, describe the process in plain language:
-```I want a skill that turns raw meeting notes into a table of action items with owners and due dates. Here's an example of notes and the table I'd want back.
+```
+I want a skill that turns raw meeting notes into a table of action items with owners and due dates. Here's an example of notes and the table I'd want back.
 ```
 5. Paste your example. Claude will turn this into a SKILL.md file — the instruction file every skill needs — without you writing any YAML or code.
 6. Check the name and description Claude gave it - Every skill has a short name and a one-line description. Claude reads that description to decide when to use the skill, so it needs to say exactly what the skill is for — "Formats raw meeting notes into an action-item table with owners and due dates" works; "helps with meetings" is too vague and won't trigger reliably.

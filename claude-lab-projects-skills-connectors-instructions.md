@@ -25,7 +25,7 @@ Get these ready before the clock starts:
 
 ---
 
-## Exercise 1: Custom Instructions (4 minutes)
+## Exercise 1: Custom Instructions 
 
 **Goal:** Set a standing preference and watch it apply without asking.
 
@@ -48,7 +48,7 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 
 ---
 
-## Exercise 2: Projects (5 minutes)
+## Exercise 2: Projects 
 
 **Goal:** Build a workspace that already knows a specific subject before you type a word.
 
@@ -67,7 +67,7 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 
 ---
 
-## Exercise 3: Skills (5 minutes)
+## Exercise 3: Skills 
 
 **Goal:** Watch Claude load a procedure on its own, only when the task calls for it.
 
@@ -98,7 +98,7 @@ create a skill to make all my responses sound like they are coming from <insert 
 
 ---
 
-## Exercise 4: Connectors (4 minutes)
+## Exercise 4: Connectors 
 
 **Goal:** Give Claude access to a live outside source instead of a file you handed it.
 

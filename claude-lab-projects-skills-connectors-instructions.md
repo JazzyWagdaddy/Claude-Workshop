@@ -37,7 +37,9 @@ Get these ready before the clock starts:
 1. Click your profile icon in the bottom left and open Settings.
 2. Go to Profile and find "Instructions for Claude"
 3. Write two sentences: one about your role, one about how you want Claude to respond. Example:
-    ```I run onboarding for a 40-person sales team. Keep answers under 150 words and skip the caveats.```
+    ```
+   I run onboarding for a 40-person sales team. Keep answers under 150 words and skip the caveats.
+    ```
 5. Save it.
 6. Start a brand-new chat, not inside a project, and ask something generic, like "how do I run a good 1:1?"
 

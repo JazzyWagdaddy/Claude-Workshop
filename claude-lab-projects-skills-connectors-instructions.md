@@ -1,6 +1,4 @@
-# Hands-On Lab
-
-Projects vs. Skills vs. Connectors vs. Custom Instructions
+# Hands-On Lab - Projects vs. Skills vs. Connectors vs. Custom Instructions
 
 
 ## What you walk away with

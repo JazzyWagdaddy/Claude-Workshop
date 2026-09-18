@@ -58,7 +58,7 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 2. Click "+ New Project."
 3. Name it something specific. Not "Work." Try "Q4 Client Onboarding."  Note that you can share this project across the company, or use it just for your purposes.  Click "Create Project".
 4. Open the project and set Project Instructions. Tell Claude who it's working for, in this one context only.  The idea: instead of re-explaining your role, tone, or rules in every new chat, you write them once in the project's instructions field, and every conversation started inside that project automatically inherits them — alongside any files you've uploaded to the project's knowledge base.
-5. Upload the file you prepared earlier.
+5. Upload a file that is relative to this project.
 6. Start a new chat inside the project and ask a question that depends on that file.  Be creative and use the T-C-O framework.
 
 **What to notice:** Claude used the file without you attaching it to the chat. Every new chat inside this project starts already briefed. Chats outside the project don't carry any of this.

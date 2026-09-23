@@ -10,8 +10,7 @@ You set up all four personalization features yourself, in order, and you leave w
 Get these ready before the clock starts:
 
 - A Claude account for this lab.
-- Code execution turned on. Go to Settings > Capabilities and confirm it's enabled. Station 3 needs it.
-- One real file on your laptop you can upload. A template, a policy doc, a past deliverable. Anything you'd normally attach to an email.
+- One real file and folder on your laptop. A template, a policy doc, a past deliverable. Anything you'd normally attach to an email.
 - Notifications off. You need 20 uninterrupted minutes.
 
 ## The four features in one line each

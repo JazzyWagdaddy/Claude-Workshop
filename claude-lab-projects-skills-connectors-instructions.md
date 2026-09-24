@@ -108,7 +108,7 @@ Here's an example of notes and the table I'd want back.
 
 **Steps**
 
-1. Click "Customize," then the Connectors tab. Click the "+" button.
+1. Click "Customize," then the Connectors tab. 
 3. Pick one you actually use, like Google Drive, Gmail, or Slack, and click "Connect." Complete the sign-in.
 4. Ask a question that requires current data, not a document. Example: "What's on my calendar tomorrow?" or "Find my most recent email from [name]."
 

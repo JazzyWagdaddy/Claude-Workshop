@@ -50,7 +50,7 @@ If you are new to Claude or haven't setup your own custom instructions, after th
 
    ```
    I am new to Claude and need to setup my custom instructions.
-Interview me and then setup my custom instructions based upon the responses. 
+Interview me and then build custom instructions based upon the responses. 
    ```
 
 ---

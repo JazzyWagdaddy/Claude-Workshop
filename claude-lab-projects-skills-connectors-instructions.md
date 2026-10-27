@@ -84,8 +84,8 @@ Interview me and then build custom instructions based upon the responses.
 **Steps**
 
 1. Click "Customize" in the left sidebar, then the Skills tab.
-2. Click the "+" button, then "Browse skills."
-3. Install the /learn skill by clicking the '+' button.  Click the "X" in the upper right corner several times to close the windows.
+2. Click the "+" button, then **Skills**, then **Browse skills.**
+3. Search for and install the *learn* skill by clicking the '+' button.  Click the "X" in the upper right corner several times to close the windows.
 4. Open a new chat and type "/".  You will see all the skills available to your session.  Highlight or type "learn" followed by a topic of your choosing, such as "bitcoin" or "basketball".
 
 **What to notice:** You never said "use the skill." Claude matched the task and loaded it automatically. It works the same way whether you're in a Project or a plain chat.

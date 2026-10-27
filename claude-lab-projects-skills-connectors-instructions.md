@@ -45,6 +45,14 @@ Make a few more iterations to your Custom Instructions based upon your role and 
 
 **Reflection question:** Would this same preference cause a problem in a totally different context, like a legal memo? If yes, it's too broad for Custom Instructions. That's your signal to use a Project or a Style instead.
 
+### Homework
+If you are new to Claude or haven't setup your own custom instructions, after the workshop open a chat and run the following prompt that will help you setup your own custom instructions.  Feel free to re-word this prompt to make it your own.
+
+   ```
+   I am new to Claude and need to setup my custom instructions.
+Interview me and then setup my custom instructions based upon the responses. 
+   ```
+
 ---
 
 ## Exercise 2: Projects 

@@ -46,6 +46,7 @@ how do I run a good 1:1?
 **What to notice:** Claude answered in your style without you asking. That's the whole feature. It now applies to every future chat, not just this one.
 
 Make a few more iterations to your Custom Instructions based upon your role and persona.  Don't forget to save the changes and open a new chat to check out the results.
+Some examples are:
 ```
 Update my instructions to include emoticons and pictures whenever possible.
 ```

@@ -95,7 +95,7 @@ One thing to keep in mind: moving a chat in doesn’t feed that chat’s content
 
 1. In the Sidebar on the left hands side of your screen, find the chat from Exercise 1 where you asked, "how do I run a good 1:1?"
 2. Hover over that chat and notice the three button elipsys, *...*, click on that and then choose **Add to Project**.
-3. Select the project you create in Task 1, and now that chat is moved to and contained within that project.  Easy!
+3. Select the project you created in Task 1, and now that chat is moved to and contained within that project.  Easy!
 ---
 
 ## Exercise 3: Skills 
@@ -124,7 +124,7 @@ coming from <insert your favorite TV character like Tony Soprano or That 70's Gu
 I want a skill that turns raw meeting notes into a table of action items with owners and due dates.
 Here's an example of notes and the table I'd want back.
 ```
-3. Paste your example. Claude will turn this into a SKILL.md file — the instruction file every skill needs — without you writing any code (Yay!).
+3. Paste your example. Claude will turn this into a skill without you writing any code (Yay!).
 4. Check the name and description Claude gave it - Every skill has a short name and a one-line description. Claude reads that description to decide when to use the skill, so it needs to say exactly what the skill is for — "Formats raw meeting notes into an action-item table with owners and due dates" works; "helps with meetings" is too vague and won't trigger reliably.
 5. Test it on a fresh example - Start a new chat and hand Claude a different set of notes than the one you used to build the skill. Confirm the skill actually fires and the output matches the pattern you taught. If it doesn't trigger, the description usually needs to be more specific.
 6. Refine one thing at a time - If the output is close but not quite right, tell Claude what to fix and ask it to update the skill. Change one instruction, re-test, and repeat — don't try to fix five issues in the same edit, or you won't know which change worked.

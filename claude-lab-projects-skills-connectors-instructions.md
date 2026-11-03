@@ -34,7 +34,8 @@ Get these ready before the clock starts:
 2. Go to Profile and find "Instructions for Claude"
 3. Write two sentences: one about your role, one about how you want Claude to respond. Here's an example, but please use something relative to your role:
     ```
-   I am a financial analyst on the deal team. Keep responses short, under 150 words, skip the caveats, and tell me which sources you used.
+   I am a financial analyst on the deal team. Keep responses short, under 150 words.
+    Skip the caveats, and tell me which sources you used.
     ```
 4. Save it.
 5. Start a brand-new chat, not inside a project, and ask something generic, like "how do I run a good 1:1?"
@@ -42,6 +43,14 @@ Get these ready before the clock starts:
 **What to notice:** Claude answered in your style without you asking. That's the whole feature. It now applies to every future chat, not just this one.
 
 Make a few more iterations to your Custom Instructions based upon your role and persona.  Don't forget to save the changes and open a new chat to check out the results.
+```
+Update my instructions to include emoticons and pictures whenever possible.
+```
+
+```
+Update my instructions to frame responses for an executive audience.  Include a summary and call to action.
+```
+
 
 **Reflection question:** Would this same preference cause a problem in a totally different context, like a legal memo? If yes, it's too broad for Custom Instructions. That's your signal to use a Project or a Style instead.
 

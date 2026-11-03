@@ -28,13 +28,13 @@ Get these ready before the clock starts:
 
 **Goal:** Set a standing preference and watch it apply without asking.
 
-**Steps**
+### Steps
 
 1. Click your profile icon in the bottom left and open Settings.
 2. Go to Profile and find "Instructions for Claude"
-3. Write two sentences: one about your role, one about how you want Claude to respond. Example:
+3. Write two sentences: one about your role, one about how you want Claude to respond. Here's an example, but please use something relative to your role:
     ```
-   I run onboarding for a 40-person sales team. Keep answers under 150 words and skip the caveats.
+   I am a financial analyst on the deal team. Keep responses short, under 150 words, skip the caveats, and tell me which sources you used.
     ```
 4. Save it.
 5. Start a brand-new chat, not inside a project, and ask something generic, like "how do I run a good 1:1?"
@@ -59,7 +59,7 @@ Interview me and then build custom instructions based upon the responses.
 
 **Goal:** Build a workspace that already knows a specific subject before you type a word.
 
-**Steps**
+### Task 1
 
 1. Click Projects in the left sidebar.
 2. Click "+ New Project."
@@ -73,6 +73,12 @@ Interview me and then build custom instructions based upon the responses.
 
 **Reflection question:** Custom Instructions applied everywhere. Project Instructions only applied inside this one project. What's a recurring subject in your own work that deserves its own Project?
 
+
+### Task 2 - Add an existing chat to your project
+
+1. In the Sidebar on the left hands side of your screen, find the chat from Exercise 1 where you asked, "how do I run a good 1:1?"
+2. Hover over that chat and notice the three button elipsys, *...*, click on that and then choose **Add to Project**.
+3. Select the project you create in Task 1, and now that chat is moved to and contained within that project.  Easy!
 ---
 
 ## Exercise 3: Skills 
@@ -114,7 +120,7 @@ Here's an example of notes and the table I'd want back.
 
 **Goal:** Give Claude access to a live outside source instead of a file you handed it.
 
-**Steps**
+### Steps
 
 1. Click "Customize," then the Connectors tab. 
 3. Pick one you actually use, like Google Drive, Gmail, or Slack, and click "Connect." Complete the sign-in.

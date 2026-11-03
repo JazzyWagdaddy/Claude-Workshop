@@ -72,7 +72,7 @@ Interview me and then build custom instructions based upon the responses.
 
 **Goal:** Build a workspace that already knows a specific subject before you type a word.
 
-### Task 1
+### Task 1 - Create a Project
 
 1. Click Projects in the left sidebar.
 2. Click "+ New Project."
@@ -88,6 +88,10 @@ Interview me and then build custom instructions based upon the responses.
 
 
 ### Task 2 - Add an existing chat to your project
+
+Dragging an existing chat into a project gives it access to that project’s knowledge base (whatever files, docs, or code you’ve uploaded there) and its custom instructions, so you don’t have to re-explain background you’ve already set up elsewhere. It also keeps related conversations grouped — handy when you started chatting about something before you’d created the project for it, or when you just want everything on one topic in one place (especially useful if you’re sharing a project with others on Team/Enterprise).
+
+One thing to keep in mind: moving a chat in doesn’t feed that chat’s content back into the project’s knowledge base, and earlier messages in that chat won’t retroactively pick up the project’s instructions — only new messages going forward do.
 
 1. In the Sidebar on the left hands side of your screen, find the chat from Exercise 1 where you asked, "how do I run a good 1:1?"
 2. Hover over that chat and notice the three button elipsys, *...*, click on that and then choose **Add to Project**.

@@ -38,7 +38,10 @@ Get these ready before the clock starts:
     Skip the caveats, and tell me which sources you used.
     ```
 4. Save it.
-5. Start a brand-new chat, not inside a project, and ask something generic, like "how do I run a good 1:1?"
+5. Start a brand-new chat, not inside a project, and ask something generic, such as
+```
+how do I run a good 1:1?
+```
 
 **What to notice:** Claude answered in your style without you asking. That's the whole feature. It now applies to every future chat, not just this one.
 

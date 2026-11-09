@@ -80,7 +80,11 @@ Interview me and then build custom instructions based upon the responses.
 4. Open the project and you can now set the project Instructions. Tell Claude who it's working for, in this one context only.  The idea: instead of re-explaining your role, tone, or rules in every new chat, you write them once in the project's instructions field, and every conversation started inside that project automatically inherits them — alongside any files you've uploaded to the project's knowledge base.
 5. Upload a file that is relative to this project.
 6. Add a folder that is relative to this project.
-7. Start a new chat inside the project and ask a question that depends on that file or files within the folder.  Be creative and use the T-C-O framework.
+7. Add Custom Instructions to this project.
+> [!NOTE]
+> Any custom instructions you set within a project stay with and are exclusive to that project.
+   
+9. Start a new chat inside the project and ask a question that depends on that file, folder, or custom instructions.  Be creative and use the T-C-O framework.
 
 **What to notice:** Claude used the files without you attaching it to the chat. Every new chat inside this project starts already briefed. Chats outside the project don't carry any of this.
 
@@ -114,20 +118,21 @@ One thing to keep in mind: moving a chat in doesn’t feed that chat’s content
 **What to notice:** You never said "use the skill." Claude matched the task and loaded it automatically. It works the same way whether you're in a Project or a plain chat.
 
 ### Create Your Own Skill
-1. Choose something you or your team does the same way every time — formatting meeting notes into action items, writing a weekly status update, converting a transcript into a client-ready summary. The narrower the task, the more useful the skill. Avoid vague goals like "write better emails."
-2. Write down what "good" looks like - Grab a real example of the task done well — an input and the output you'd want from it. This becomes the reference Claude uses to understand the pattern you're teaching it, and it's the single biggest factor in whether the skill actually works.
+1. Choose something you or your team does the same way every time, such as writing a weekly status update, gaining insights from research, etc. The narrower the task, the more useful the skill. Avoid vague goals like "write better emails."
+2. Write down what "good" looks like - Grab a real example of the task done well — an input and the output you'd want from it. This becomes the reference Claude uses to understand the pattern you're teaching it, and it's the single biggest factor in whether the skill actually works.  Examples include:
 ```
-create a skill to make all my responses sound like they are
-coming from <insert your favorite TV character like Tony Soprano or That 70's Guy>
+create a skill that will summarize my inbox into the top 5 message that are unanswered
 ```
+**or**
 ```
 I want a skill that turns raw meeting notes into a table of action items with owners and due dates.
 Here's an example of notes and the table I'd want back.
 ```
-3. Paste your example. Claude will turn this into a skill without you writing any code (Yay!).
+3. Paste your prompt. Claude will turn this into a skill without you writing any code (Yay!).
 4. Check the name and description Claude gave it - Every skill has a short name and a one-line description. Claude reads that description to decide when to use the skill, so it needs to say exactly what the skill is for — "Formats raw meeting notes into an action-item table with owners and due dates" works; "helps with meetings" is too vague and won't trigger reliably.
-5. Test it on a fresh example - Start a new chat and hand Claude a different set of notes than the one you used to build the skill. Confirm the skill actually fires and the output matches the pattern you taught. If it doesn't trigger, the description usually needs to be more specific.
+5. Test it on a fresh example - Confirm the skill actually fires and the output matches the pattern you taught. If it doesn't trigger, the description usually needs to be more specific.
 6. Refine one thing at a time - If the output is close but not quite right, tell Claude what to fix and ask it to update the skill. Change one instruction, re-test, and repeat — don't try to fix five issues in the same edit, or you won't know which change worked.
+7. If you like what was created, save your skill!
 
 **Reflection question:** A Skill holds procedural knowledge, the how of a task. A Project holds background knowledge, the what and who of a subject. Where's the line for something you do the same way every week, like formatting a status report?
 
@@ -135,30 +140,19 @@ Here's an example of notes and the table I'd want back.
 
 ## Exercise 4: Connectors 
 
-**Goal:** Give Claude access to a live outside source instead of a file you handed it.
+**Goal:** Give Claude access to a live outside data sources instead of a file you handed it.
+
+> [!NOTE]
+> Your IT organization may manage which Connectors you can use, so we recommend that you scroll through the list of approved connectors.
 
 ### Steps
 
-1. Click "Customize," then the Connectors tab. 
-3. Pick one you actually use, like Google Drive, Gmail, or Slack, and click "Connect." Complete the sign-in.
-4. Ask a question that requires current data, not a document. Example: "What's on my calendar tomorrow?" or "Find my most recent email from [name]."
+1. From your Claude desktop, click "Customize" on the sidebar, then the Connectors tab. 
+2. Since your IT organization manages which Connectors you can use, scroll through the list of approved connectors, and if there is one applicable to your role, click on **Connect**.
 
 **What to notice:** Claude didn't summarize a file you gave it. It pulled the actual current record. That's the core difference: Connectors read live systems. Projects and Skills only work with content you've directly provided.
 
-**Note for Free plan users:** You get one custom connector. Pre-built connectors don't count against that limit, so start there if you're on Free.
 
----
-
-## Wrap-up: the decision framework (2 minutes)
-
-Ask these questions in order. Stop at the first "yes."
-
-1. **Does this need to apply to every conversation, regardless of topic?** Use Custom Instructions.
-2. **Is this an ongoing subject with its own files and context?** Use a Project.
-3. **Is this a repeatable task I want done the same way, anywhere I work?** Use a Skill.
-4. **Do I need Claude to see live, current data instead of a document I give it?** Use a Connector.
-
-**The mistake to watch for:** People stuff formatting and tone rules into every new Project's instructions, then wonder why every Project feels like starting from zero. A preference that applies everywhere belongs in Custom Instructions once, not copied into each Project.
 
 ---
 

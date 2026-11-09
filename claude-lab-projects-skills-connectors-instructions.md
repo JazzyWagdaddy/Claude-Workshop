@@ -1,5 +1,4 @@
-# Hands-On Lab - Projects vs. Skills vs. Connectors vs. Custom Instructions
-
+# Hands-On Lab - Projects, Custom Instructions, Skills, and Connectors
 
 ## What you walk away with
 
@@ -30,8 +29,8 @@ Get these ready before the clock starts:
 
 ### Steps
 
-1. Click your profile icon in the bottom left and open Settings.
-2. Go to Profile and find "Instructions for Claude"
+1. Click your profile icon in the bottom left and then open Settings.
+2. Go to **Profile** and find **Instructions for Claude**
 3. Write two sentences: one about your role, one about how you want Claude to respond. Here's an example, but please use something relative to your role:
     ```
    I am a financial analyst on the deal team. Keep responses short, under 150 words.
